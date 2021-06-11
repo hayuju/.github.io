@@ -1,0 +1,302 @@
+<!DOCTYPE html><!--22061123 하유주-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: white;
+  color: black;
+}
+#logo {
+  float: left;
+  margin: 37px 0 0 20px;
+}
+#menus {
+  float: left;
+}
+#top_menu {
+  text-align: right;
+  margin-top: 20px;
+}
+#main_menu {
+margin-top: 10px;
+font-family:'Noto Sans KR';
+font-size: 17px;
+color: white;
+width: 100%;
+display: block;
+}
+#main_menu li {
+  display: inline;
+  margin-left: 60px;
+  vertical-align: middle;
+}
+
+#main_menu a:hover {
+  color: red;
+}
+a:hover {
+  color: red;
+}
+.header {
+  padding: 30px;
+  background: white;
+}
+.header h1 {
+  font-size: 35px;
+}
+.rightcolumn {
+  float: left;
+  width: 20%;
+  background-color: white;
+  padding-left: 70px;
+  font-family: 'Noto Sans KR';
+}
+.leftcolumn {
+  float: right;
+  width: 80%;
+  font-family: 'Noto Sans KR';
+  padding-left: 130px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.li_1 {
+  list-style-image: url('img/icon.png');
+  font-size: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: white;
+  margin-top: 20px;
+  font-size: 12px;
+  font-family: 'Noto Sans KR';
+}
+p {
+  line-height: 170%;
+}
+
+.p_1 {
+  font-size: 14px;
+}
+.center {
+  align-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+.right {
+  float: right;
+}
+.bold {
+  font-family: 'Noto Sans KR';
+  color: red;
+}
+.white {
+  color: white;
+}
+.red {
+  color: red;
+}
+
+table {
+        border-collapse:collapse;
+        width:610px;
+      }
+      table, td, th {
+         border:solid 1px #cccccc;
+      }
+      tr {
+        height:40px;
+        text-align:center;
+      }
+      td, th{
+        padding:5px;
+      }
+      .info{
+        background-color:black;
+        color:white;
+        font-weight:bold;
+      }
+      #table_title {
+        height:30px;
+        background-color:#eeeeee;
+      }
+      #col1, #col4 {
+        width:90px;
+      }
+      #col2, #col3 {
+        width:60px;
+      }
+      #col5, #col6 {
+        width:80px;
+      }
+      #col7 {
+        width:140px;
+      }
+
+div { position: relative; }
+.p_2 {
+position: absolute; top: 150px; left: 320px;
+color:black;
+text-align: center;
+font-size: 13px;
+}
+.p_3 {
+position: absolute; top: 150px; left: 225px;
+color:black;
+text-align: center;
+font-size: 13px;
+}
+.p_4 {
+position: absolute; top: 250px; left: 195px;
+color:black;
+text-align: center;
+font-size: 13px;
+}
+.p_5 {
+position: absolute; top: 230px; left: 265px;
+color:black;
+text-align: center;
+font-size: 13px;
+}
+.p_6 {
+position: absolute; top: 395px; left: 185px;
+color:black;
+text-align: center;
+font-size: 13px;
+}
+.p_7 {
+position: absolute; top: 330px; left: 210px;
+color:black;
+text-align: center;
+font-size: 13px;
+}
+.p_8 {
+position: absolute; top: 370px; left: 300px;
+color:black;
+text-align: center;
+font-size: 13px;
+}
+.p_9 {
+position: absolute; top: 280px; left: 335px;
+color:black;
+text-align: center;
+font-size: 13px;
+}
+.p_10 {
+position: absolute; top: 400px; left: 450px;
+color:black;
+text-align: center;
+font-size: 13px;
+}
+      </style>
+  </head>
+  <body>
+    <div class='header'>
+
+      <span id='main_menu'>
+        <li><a href="./index.html"><img src='./img/logo.png' width='200'></a></li>
+        <li><a href='./intro.html'>개요</a></li>
+        <li><a href='./bshh.html'>발생현황</a></li>
+        <li><a href='./grdg.html'>거리두기</a></li>
+        <li><a href='./ybsch.html'>예방수칙</a></li>
+    </div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2><span class='bold'>국내현황</span></h2>
+      <br>
+      <table>
+      <tr id="table_title">
+        <th></th>
+        <th class="info">확진환자</th>
+        <th>격리해제</th>
+        <th>치료/격리</th>
+        <th>사망</th>
+      </tr>
+      <tr>
+        <td id="col1">누적</td>
+        <td id="col2" class="info">146,303</td>
+        <td id="col3">136,713</td>
+        <td id="col4">7,611</td>
+        <td id="col5">1,979</td>
+      </tr>
+      <tr>
+        <td>전일대비</td>
+        <td class="info">(+ 611)</td>
+        <td>(+ 539)</td>
+        <td>(+ 70)</td>
+        <td>(+ 2)</td>
+      </tr>
+    </table>
+
+      <div><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='./img/map.png' width='40%'>
+  <p class="p_2"><a href = "http://www.provin.gangwon.kr/covid-19.html">강원<br>3,324</p></a>
+  <p class="p_3"><a href = "https://www.gg.go.kr/contents/contents.do?ciIdx=1150&menuId=2909">경기<br>40,802</p></a>
+
+  <p class="p_4"><a href = "https://www.chungnam.go.kr/coronaStatus.do">충남<br>3,627</p></a>
+  <p class="p_5"><a href = "https://www1.chungbuk.go.kr/covid-19/index.do">충북<br>3,091</p></a>
+
+  <p class="p_6"><a href = "https://www.jeonnam.go.kr/pj/Corona_route.do">전남<br>1,537</p></a>
+  <p class="p_7"><a href = "https://www.jeonbuk.go.kr/index.jeonbuk?menuCd=DOM_000000110006000000">전북<br>2,285</p></a>
+
+  <p class="p_8"><a href = "http://xn--19-q81ii1knc140d892b.kr/main/main.do">경남<br>4,980</p></a>
+  <p class="p_9"><a href = "https://www.gb.go.kr/corona_main.htm">경북<br>4,795</p></a>
+  <p class="p_10"><a href = "https://covid19.jeju.go.kr/">제주<br>1,168</p></a>
+
+</div><br>
+
+<br><br>
+</div>
+</div>
+
+<div class="rightcolumn">
+  <div class="card">
+    <h2>발생현황</h2>
+    <div><p> &nbsp; </p></div>
+    <div><p><a href="./bshh.html"><span class='red'>국내현황</span></a></p></div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Copyright © 22061123 하유주</p>
+</div>
+
+  </body>
+</html>
